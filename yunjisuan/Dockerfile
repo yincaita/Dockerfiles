@@ -6,6 +6,7 @@ RUN mkdir /usr/yunjisuan
 WORKDIR /usr/yunjisuan
 COPY ./helloworld.c .
 
+
 RUN yum install -y gcc && gcc helloworld.c -o helloworld
 
 CMD ["./helloworld"]
