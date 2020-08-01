@@ -12,6 +12,6 @@ int main() {
 
 	fclose(in);
 
-	printf("\n姓名: 刘善\n学号: 2018051199\n");
+	printf("\n姓名: ls\n学号: 2018051199\n");
 	return 0;
 }
